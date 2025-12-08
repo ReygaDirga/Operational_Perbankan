@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ujian Solusi Layanan BCA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <div class="header">
+      <div class="title">Ujian Solusi Layanan BCA</div>
+      <div class="score-box">
+        Skor: <span id="scoreDisplay">0</span>
+      </div>
+    </div>
+
+    <div class="progress" id="progressText">Soal 1 / 100</div>
+    <div class="progress-bar-wrapper">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <div class="question-box">
+      <div class="question-number" id="questionNumber">Soal 1</div>
+      <div class="question-text" id="questionText"></div>
+      <div class="option-list" id="optionList"></div>
+    </div>
+
+    <div class="footer">
+      <div class="nav-buttons">
+        <button class="btn btn-secondary" id="prevBtn">Sebelumnya</button>
+        <button class="btn btn-secondary" onclick="window.location.href='../index.html'">Homepage</button>
+      </div>
+      <div class="nav-buttons">
+        <button class="btn btn-primary" id="nextBtn">Berikutnya</button>
+        <button class="btn btn-primary" id="finishBtn">Selesai &amp; Lihat Skor</button>
+      </div>
+    </div>
+
+    <div class="result-box" id="resultBox"></div>
+    <button class="btn btn-secondary" id="retryBtn" style="display:none;">🔁 Ulangi Ujian</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
