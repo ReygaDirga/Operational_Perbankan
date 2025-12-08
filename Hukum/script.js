@@ -988,7 +988,7 @@ const questions = [
       "Meminta ahli waris mencari sampai ketemu"
     ],
     correctIndex: 1
-  },x``
+  },
   {
     text: "Nasabah penyimpan sekaligus debitur. Dalam konteks Rahasia Bank, bank wajib merahasiakan...",
     options: [
