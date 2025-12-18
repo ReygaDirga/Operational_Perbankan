@@ -12,8 +12,8 @@ const questions = [
   {
     text: "Yang WAJIB dirahasiakan dalam konteks Rahasia Bank adalah...",
     options: [
-      "Hanya saldo rekening nasabah penyimpan",
-      "Hanya mutasi rekening dan data transaksi nasabah",
+      "Data mengenai saldo rekening tertentu milik nasabah penyimpan yang tercatat pada bank",
+      "Informasi berupa mutasi rekening serta catatan transaksi keuangan nasabah penyimpan",
       "Seluruh data dan informasi mengenai keuangan serta hal lain dari nasabah penyimpan",
       "Seluruh data dan informasi mengenai seluruh nasabah, baik penyimpan maupun debitur"
     ],
@@ -30,12 +30,12 @@ const questions = [
     correctIndex: 1
   },
   {
-    text: "Pihak yang termasuk 'Pihak Terafiliasi' yang wajib menjaga Rahasia Bank antara lain...",
+    text: "Pihak yang termasuk Pihak Terafiliasi yang wajib menjaga Rahasia Bank antara lain...",
     options: [
-      "Hanya komisaris dan direksi bank",
-      "Pegawai bank, pihak pemberi jasa kepada bank, serta pihak yang mengendalikan atau dikendalikan bank",
-      "Hanya akuntan publik yang mengaudit bank",
-      "Seluruh nasabah bank tanpa kecuali"
+      "Komisaris dan direksi bank yang secara langsung terlibat dalam pengambilan keputusan",
+      "Pegawai bank, pihak pemberi jasa kepada bank, serta pihak yang mengendalikan atau dikendalikan oleh bank",
+      "Pihak profesional yang memberikan jasa audit dan konsultasi kepada bank secara terbatas",
+      "Seluruh pihak yang memiliki hubungan hukum dengan bank tanpa pengecualian"
     ],
     correctIndex: 1
   },
@@ -73,7 +73,7 @@ const questions = [
     text: "Tukar-menukar informasi antar bank terkait Rahasia Bank dapat dilakukan...",
     options: [
       "Hanya dengan persetujuan tertulis nasabah",
-      "Tanpa persetujuan nasabah, sepanjang untuk kepentingan tukar-menukar informasi antar bank",
+      "Tanpa persetujuan nasabah",
       "Hanya jika diminta oleh aparat penegak hukum",
       "Hanya jika berkaitan dengan transaksi internasional"
     ],
@@ -90,9 +90,9 @@ const questions = [
     correctIndex: 2
   },
   {
-    text: "Dalam konteks pencegahan dan pemberantasan tindak pidana pencucian uang, yang berhak meminta data nasabah kepada bank adalah...",
+    text: "Dalam konteks pencegahan dan pemberantasan tindak pidana pencucian uang, yang berhak meminta keterangan nasabah kepada bank adalah...",
     options: [
-      "Penyidik, penuntut umum, atau hakim sesuai ketentuan UU TPPU",
+      "Penyidik, penuntut umum, atau hakim",
       "Hanya PPATK tanpa koordinasi dengan penegak hukum",
       "Setiap lembaga pemerintah yang membutuhkan data",
       "Hanya OJK dan Bank Indonesia"
@@ -104,7 +104,7 @@ const questions = [
     options: [
       "Kepala Kejaksaan Negeri setempat",
       "Jaksa penuntut umum yang menangani perkara",
-      "Jaksa Agung atau Kepala Kejaksaan Tinggi sesuai ketentuan",
+      "Jaksa Agung atau Kepala Kejaksaan Tinggi",
       "Ketua Pengadilan Negeri yang memeriksa perkara"
     ],
     correctIndex: 2
@@ -112,7 +112,7 @@ const questions = [
   {
     text: "Penyidik BNN Pusat meminta data rekening seorang tersangka narkotika. Bank dapat memberikan data tersebut jika...",
     options: [
-      "Surat permintaan ditandatangani Kepala BNN atau pejabat yang berwenang",
+      "Surat permintaan ditandatangani Kepala BNN",
       "Ada persetujuan lisan dari kepala cabang bank",
       "Nasabah menandatangani surat kuasa kepada BNN",
       "OJK menerbitkan izin pembukaan Rahasia Bank"
@@ -133,7 +133,7 @@ const questions = [
     text: "KPK meminta data nasabah yang masih berstatus saksi dalam perkara korupsi. Bank sebaiknya...",
     options: [
       "Langsung memberikan data karena permintaan datang dari KPK",
-      "Menolak karena kewenangan KPK terkait nasabah yang sudah tersangka/terdakwa",
+      "Menolak karena kewenangan KPK terkait nasabah yang sudah tersangka",
       "Memberikan hanya saldo tanpa mutasi",
       "Meminta persetujuan nasabah terlebih dahulu"
     ],
@@ -162,18 +162,18 @@ const questions = [
   {
     text: "Seseorang dianggap cakap hukum untuk membuat perjanjian jika...",
     options: [
-      "Telah berusia dewasa menurut ketentuan dan tidak berada di bawah pengampuan",
-      "Telah memiliki pekerjaan tetap dan penghasilan",
+      "Telah berusia dewasa menurut ketentuan",
+      "Telah memiliki pekerjaan tetap dan penghasilan diatas UMR",
       "Telah memiliki NPWP dan KTP elektronik",
       "Telah menikah dan memiliki anak"
     ],
     correctIndex: 0
   },
   {
-    text: "Orang yang ditaruh di bawah pengampuan (curatele) menurut KUHPerdata adalah...",
+    text: "Orang yang ditaruh di bawah pengampuan menurut KUHPerdata adalah...",
     options: [
       "Anak yang masih di bawah 18 tahun",
-      "Orang dewasa yang dungu, sakit otak, mata gelap, atau boros",
+      "Orang dewasa yang boros",
       "Orang dewasa yang tidak memiliki pekerjaan",
       "Orang yang belum memiliki KTP"
     ],
@@ -182,8 +182,8 @@ const questions = [
   {
     text: "Perbedaan utama antara perwalian dan pengampuan adalah...",
     options: [
-      "Perwalian untuk anak di bawah umur, pengampuan untuk orang dewasa tertentu",
-      "Perwalian untuk debitur, pengampuan untuk kreditur",
+      "Perwalian untuk anak di bawah umur, pengampuan untuk orang boros",
+      "Perwalian untuk orang boros, pengampuan untuk anak dibawah umur",
       "Perwalian diangkat oleh notaris, pengampuan oleh lurah",
       "Perwalian bersifat sementara, pengampuan selalu seumur hidup"
     ],
@@ -193,7 +193,7 @@ const questions = [
     text: "Badan sebagai subjek hukum minimal harus memiliki...",
     options: [
       "NPWP dan izin usaha",
-      "Kekayaan terpisah, tujuan tertentu, kepentingan bersama, dan organisasi teratur",
+      "Organisasi teratur",
       "Akta notaris dan rekening bank",
       "Modal disetor dan laporan keuangan tahunan"
     ],
@@ -203,8 +203,8 @@ const questions = [
     text: "Perseroan Terbatas (PT) memperoleh status badan hukum ketika...",
     options: [
       "Akta pendirian ditandatangani di hadapan notaris",
-      "Perusahaan mulai beroperasi dan memiliki pelanggan",
-      "Telah didaftarkan dan memperoleh bukti pendaftaran/pengesahan dari Kementerian",
+      "Perusahaan sudah berdiri diatas dari 60 tahun",
+      "Telah didaftarkan dan memperoleh bukti pengesahan dari Kementerian",
       "Memiliki modal dasar dan modal disetor sesuai ketentuan"
     ],
     correctIndex: 2
@@ -214,7 +214,7 @@ const questions = [
     options: [
       "Direksi",
       "Dewan Komisaris",
-      "Rapat Umum Pemegang Saham (RUPS)",
+      "RUPS",
       "Komite Audit"
     ],
     correctIndex: 2
@@ -223,7 +223,7 @@ const questions = [
     text: "Direksi PT pada prinsipnya bertanggung jawab untuk...",
     options: [
       "Mengawasi kebijakan perseroan dan memberi nasihat",
-      "Mengurus dan mewakili perseroan di dalam dan di luar pengadilan",
+      "Mengurus perseroan di dalam maupun luar pengadilan",
       "Menetapkan perubahan anggaran dasar tanpa persetujuan RUPS",
       "Mewakili kepentingan pemegang saham minoritas"
     ],
@@ -233,9 +233,9 @@ const questions = [
     text: "Dewan Komisaris dalam PT memiliki fungsi utama untuk...",
     options: [
       "Mengurus kegiatan operasional harian perseroan",
-      "Mengawasi kebijakan pengurusan dan memberi nasihat kepada Direksi",
+      "Memberi nasihat kepada Direksi",
       "Menandatangani seluruh kontrak perseroan",
-      "Mewakili perseroan di pengadilan"
+      "Memberitahukan jika ada perubahan anggota direksi"
     ],
     correctIndex: 1
   },
@@ -244,7 +244,7 @@ const questions = [
     options: [
       "Persetujuan tertulis dari Direksi saja",
       "Persetujuan Dewan Komisaris saja",
-      "Keputusan RUPS dengan kuorum dan persyaratan suara tertentu",
+      "Persetujuan RUPS",
       "Persetujuan notaris dan Kementerian"
     ],
     correctIndex: 2
@@ -253,7 +253,7 @@ const questions = [
     text: "PT X mengalihkan 60% aset bersihnya sebagai jaminan kredit tanpa persetujuan RUPS. Secara hukum...",
     options: [
       "Tindakan sah karena direksi berwenang penuh mengurus perseroan",
-      "Tindakan harus mendapatkan persetujuan RUPS, jika tidak dapat dipersoalkan",
+      "Tindakan harus mendapatkan persetujuan RUPS",
       "Cukup mendapat persetujuan Dewan Komisaris",
       "Cukup diberitahukan kepada Kementerian Hukum dan HAM"
     ],
@@ -283,7 +283,7 @@ const questions = [
     text: "Yayasan sebagai badan hukum didirikan dengan cara...",
     options: [
       "Perjanjian para pihak dengan membagi saham",
-      "Memisahkan kekayaan untuk tujuan sosial, keagamaan, atau kemanusiaan melalui akta notaris",
+      "Memisahkan kekayaan untuk tujuan sosial",
       "Mendaftarkan nama yayasan ke kelurahan",
       "Membuat anggaran dasar yang disahkan pengadilan"
     ],
@@ -300,7 +300,7 @@ const questions = [
     correctIndex: 1
   },
   {
-    text: "Persekutuan perdata (maatschap) adalah...",
+    text: "Persekutuan perdata adalah...",
     options: [
       "Persekutuan yang selalu berbadan hukum",
       "Perjanjian dua orang atau lebih untuk memasukkan sesuatu dengan maksud membagi keuntungan",
@@ -310,17 +310,17 @@ const questions = [
     correctIndex: 1
   },
   {
-    text: "Firma sebagai bentuk badan bukan badan hukum memiliki ciri...",
+    text: "Ciri utama dari Firma sebagai badan usaha yang bukan badan hukum adalah...",
     options: [
       "Tanggung jawab pesero terbatas pada modal setor",
-      "Perusahaan dijalankan dengan nama bersama dan pesero bertanggung jawab tanggung renteng",
+      "Perusahaan dijalankan dengan nama bersama",
       "Harus memiliki minimal satu pesero komanditer",
       "Selalu berbentuk perseroan terbatas"
     ],
     correctIndex: 1
   },
   {
-    text: "Dalam CV, pesero komplementer (aktif) bertanggung jawab...",
+    text: "Dalam CV, pesero komplementer bertanggung jawab...",
     options: [
       "Terbatas hanya pada modal yang disetorkan",
       "Tanggung renteng dan tidak terbatas atas utang perseroan",
@@ -330,7 +330,7 @@ const questions = [
     correctIndex: 1
   },
   {
-    text: "Pesero komanditer (pasif) dalam CV akan berubah menjadi bertanggung jawab tidak terbatas jika...",
+    text: "Pesero komanditer dalam CV akan berubah menjadi bertanggung jawab tidak terbatas jika...",
     options: [
       "Mengundurkan diri dari CV",
       "Ikut menjalankan pengurusan perseroan",
@@ -363,7 +363,7 @@ const questions = [
     text: "Jika syarat subjektif tidak terpenuhi dalam suatu perjanjian, akibat hukumnya adalah...",
     options: [
       "Perjanjian batal demi hukum sejak awal",
-      "Perjanjian dapat dimintakan pembatalan (voidable)",
+      "Perjanjian dapat dimintakan pembatalan",
       "Perjanjian tetap sah tetapi tidak dapat dilaksanakan",
       "Perjanjian otomatis menjadi perjanjian lisan"
     ],
@@ -390,7 +390,7 @@ const questions = [
     correctIndex: 1
   },
   {
-    text: "A menandatangani perjanjian kredit karena diancam oleh B. Dalam hal ini perjanjian...",
+    text: "Samudra menandatangani perjanjian kredit karena diancam oleh fance. Dalam hal ini perjanjian...",
     options: [
       "Tetap sah karena ada tanda tangan debitur",
       "Dapat dimintakan pembatalan karena mengandung paksaan",
@@ -400,7 +400,7 @@ const questions = [
     correctIndex: 1
   },
   {
-    text: "C menandatangani perjanjian jual beli atas barang yang ia kira asli, ternyata palsu. Ini merupakan contoh...",
+    text: "Diah menandatangani perjanjian jual beli atas barang yang ia kira asli, ternyata palsu. Ini merupakan contoh...",
     options: [
       "Paksaan",
       "Penipuan",
@@ -424,7 +424,7 @@ const questions = [
     options: [
       "Hanya sesama perorangan",
       "Hanya sesama badan hukum",
-      "Perorangan dengan perorangan, perorangan dengan badan, atau badan dengan badan",
+      "Perorangan dengan badan hukum",
       "Hanya perorangan dan instansi pemerintah"
     ],
     correctIndex: 2
@@ -432,7 +432,7 @@ const questions = [
   {
     text: "Rekening atas nama badan mencakup antara lain...",
     options: [
-      "Instansi pemerintah, PT, koperasi, yayasan, dan CV",
+      "Instansi pemerintah dan koperasi",
       "Hanya PT dan yayasan",
       "Hanya badan hukum yang mencari laba",
       "Hanya badan hukum berbentuk PT"
@@ -442,7 +442,7 @@ const questions = [
   {
     text: "Syarat umum pembukaan rekening untuk perorangan WNI antara lain...",
     options: [
-      "KTP/identitas, NPWP (jika ada), dan mengisi formulir pembukaan rekening",
+      "KTP dan Dokumen perizinan",
       "Hanya perlu KTP asli tanpa formulir",
       "Hanya memerlukan surat keterangan kerja",
       "Cukup nomor telepon aktif dan email"
@@ -453,7 +453,7 @@ const questions = [
     text: "Perorangan asing yang ingin membuka rekening di bank harus menyerahkan...",
     options: [
       "Hanya paspor negara asal",
-      "Paspor dan KITAS/KITAP atau dokumen pengganti",
+      "Paspor dan KITAS/KITAP",
       "Surat keterangan domisili dari RT/RW",
       "Fotokopi visa turis"
     ],
@@ -463,9 +463,9 @@ const questions = [
     text: "Perusahaan asing yang membuka rekening di Indonesia pada prinsipnya harus menyerahkan...",
     options: [
       "Akta pendirian perusahaan dan izin dari bank koresponden",
-      "Deed of Establishment yang dilegalisasi dan izin usaha/NIB kantor perwakilan di Indonesia",
+      "Deed of Establishment yang dilegalisasi",
       "Surat domisili dari kedutaan besar",
-      "Surat rekomendasi dari BI"
+      "Deed of Establishment yang belum dilegalisasi"
     ],
     correctIndex: 1
   },
@@ -483,7 +483,7 @@ const questions = [
     text: "Dalam penutupan rekening giro atas permintaan sendiri, pemilik rekening wajib...",
     options: [
       "Menyerahkan kartu ATM saja",
-      "Mengembalikan blanko cek/bilyet giro yang belum digunakan dan membuat pernyataan tertentu",
+      "Mengembalikan bilyet giro yang belum digunakan",
       "Menyerahkan buku tabungan dan KTP",
       "Mendaftarkan ulang spesimen tanda tangan"
     ],
@@ -493,7 +493,7 @@ const questions = [
     text: "Nasabah ingin menutup rekening giro, tetapi masih ada cek yang beredar. Tindakan yang benar adalah...",
     options: [
       "Tetap menutup rekening tanpa syarat",
-      "Menyediakan dana cukup di rekening khusus dan membuat pernyataan terkait cek yang masih beredar",
+      "Menyediakan dana cukup di rekening khusus",
       "Memblokir seluruh cek yang beredar tanpa pemberitahuan",
       "Meminta nasabah menarik kembali semua cek yang beredar baru menutup rekening"
     ],
@@ -533,7 +533,7 @@ const questions = [
     text: "Jika salah satu ahli waris berhalangan hadir saat penyerahan Harta Peninggalan, maka...",
     options: [
       "Bank menunda penyerahan sampai semua hadir",
-      "Ahli waris yang berhalangan membuat surat kuasa kepada ahli waris lain atau pihak yang ditunjuk",
+      "Ahli waris yang berhalangan membuat surat kuasa kepada ahli waris lain",
       "Bank membagikan bagian ahli waris yang berhalangan kepada ahli waris lain",
       "Bank langsung menyetor ke kas negara"
     ],
@@ -552,7 +552,7 @@ const questions = [
   {
     text: "Pengecualian Dokumen Keahliwarisan dapat diberlakukan jika...",
     options: [
-      "Nilai Harta Peninggalan di bawah Rp5 juta, ahli waris adalah istri/suami dan/atau anak, dan tidak ada sengketa",
+      "Nilai Harta Peninggalan di bawah Rp5 juta",
       "Ahli waris hanya satu orang",
       "Nasabah meninggal di luar negeri",
       "Saldo rekening hanya berbentuk deposito"
@@ -614,7 +614,7 @@ const questions = [
     options: [
       "Surat pernyataan ahli waris yang disepakati sebagian besar ahli waris",
       "Surat Keterangan Waris dari lurah",
-      "Putusan Pengadilan (Negeri atau Agama sesuai kewenangannya)",
+      "Putusan Pengadilan",
       "Akta waris dari notaris tanpa putusan pengadilan"
     ],
     correctIndex: 2
@@ -683,7 +683,7 @@ const questions = [
     text: "Dalam konteks pembukaan rekening, syarat usia 17 tahun biasanya dikaitkan dengan...",
     options: [
       "Kewajiban memiliki kartu keluarga",
-      "Kewajiban memiliki KTP elektronik dan kecakapan untuk bertindak hukum",
+      "Kewajiban memiliki KTP dan kecakapan hukum",
       "Kewajiban menjadi wajib pajak",
       "Kewajiban membuka rekening bank"
     ],
@@ -693,7 +693,7 @@ const questions = [
     text: "Seorang siswa berusia 16 tahun ingin membuka rekening atas namanya sendiri. Bank sebaiknya...",
     options: [
       "Menolak karena belum dewasa dan tidak boleh punya rekening",
-      "Meminta pendampingan orang tua/wali sesuai kebijakan produk dan kecakapan hukum",
+      "Meminta pendampingan orang tua/wali",
       "Tetap membuka tanpa syarat karena usia tidak penting",
       "Mewajibkan siswa membuat akta pengampuan"
     ],
@@ -702,7 +702,7 @@ const questions = [
   {
     text: "Dalam PT, perubahan susunan direksi harus...",
     options: [
-      "Diberitahukan kepada Kementerian dalam jangka waktu tertentu untuk dicatat dalam daftar perseroan",
+      "Diberitahukan kepada Kementerian",
       "Dilaporkan ke kantor pajak setempat",
       "Disetujui BI dan OJK",
       "Didaftarkan ke pengadilan negeri"
@@ -743,7 +743,7 @@ const questions = [
     text: "Kewajiban bank dalam menjaga Rahasia Bank juga berlaku terhadap pihak yang memberikan jasa kepada bank seperti...",
     options: [
       "Hanya akuntan publik",
-      "Akuntan publik, penilai, konsultan hukum, dan konsultan lainnya",
+      "Akuntan publik",
       "Hanya konsultan hukum yang ditunjuk",
       "Hanya vendor teknologi informasi"
     ],
@@ -812,7 +812,7 @@ const questions = [
   {
     text: "Dua nasabah bersengketa di pengadilan dan memerlukan data rekening salah satu pihak. Direksi bank hanya dapat memberikan keterangan...",
     options: [
-      "Jika ada permintaan dari ketua pengadilan negeri/tinggi atau MA sesuai ketentuan",
+      "Jika ada permintaan dari ketua pengadilan negeri",
       "Jika diminta oleh pengacara salah satu pihak",
       "Jika diminta lisan oleh hakim",
       "Jika diminta oleh jaksa penuntut umum"
@@ -822,7 +822,7 @@ const questions = [
   {
     text: "Pembukaan rekening oleh badan hukum umumnya mensyaratkan adanya...",
     options: [
-      "Akta pendirian dan anggaran dasar berikut perubahan, identitas pengurus, dan dokumen perizinan usaha",
+      "Akta pendirian",
       "Surat pernyataan berdiri di atas materai",
       "Surat keterangan domisili dari RT/RW",
       "Surat rekomendasi dari notaris"
@@ -832,173 +832,173 @@ const questions = [
   {
     text: "Sebuah yayasan ingin membuka rekening. Dokumen yang paling relevan adalah...",
     options: [
-      "Akta pendirian yayasan yang telah disahkan sebagai badan hukum dan identitas pengurus",
-      "Surat keterangan tokoh masyarakat",
-      "Surat rekomendasi dari sekolah terdekat",
-      "Peraturan internal yayasan tanpa akta"
+      "Akta pendirian yayasan yang telah disahkan sebagai badan hukum",
+      "Surat keterangan pendirian yayasan yang diketahui oleh tokoh masyarakat setempat",
+      "Surat rekomendasi kelembagaan yang menerangkan kegiatan yayasan dari institusi terkait",
+      "Dokumen internal yayasan yang mengatur struktur dan kegiatan tanpa akta pendirian"
     ],
     correctIndex: 0
   },
   {
-    text: "Dalam praktek, mengapa bank memerlukan fotokopi dokumen asli (Akta Kematian, Akta Nikah, dll.) yang dicocokkan dengan aslinya?",
-    options: [
-      "Untuk keperluan arsip internal saja",
-      "Untuk memastikan keabsahan dokumen dan mengurangi risiko sengketa",
-      "Karena diwajibkan oleh notaris",
-      "Untuk memudahkan penghitungan pajak"
-    ],
-    correctIndex: 1
-  },
+  text: "Pemberian kuasa dalam konteks perbankan pada prinsipnya adalah...",
+  options: [
+    "Pelimpahan kewenangan dari bank kepada nasabah",
+    "Pelimpahan wewenang dari seseorang kepada pihak lain untuk bertindak atas namanya",
+    "Perjanjian sepihak yang berlaku otomatis",
+    "Hubungan hukum antara bank dan regulator"
+  ],
+  correctIndex: 1
+},
   {
-    text: "Nasabah sudah melunasi kredit dan agunan berupa sertifikat tanah tersimpan di bank. Setelah nasabah meninggal, agunan tersebut termasuk...",
-    options: [
-      "Bukan bagian Harta Peninggalan karena agunan",
-      "Tetap menjadi milik bank sepenuhnya",
-      "Bagian dari Harta Peninggalan yang harus diserahkan kepada ahli waris sesuai Dokumen Keahliwarisan",
-      "Objek pajak bank"
-    ],
-    correctIndex: 2
-  },
+  text: "Kuasa untuk melakukan penarikan dana rekening pada umumnya harus...",
+  options: [
+    "Disampaikan secara lisan kepada teller",
+    "Dibuat secara tertulis dan ditandatangani pemberi kuasa",
+    "Cukup melalui pesan elektronik",
+    "Disampaikan oleh saksi keluarga"
+  ],
+  correctIndex: 1
+},
   {
-    text: "Salah satu ahli waris tidak setuju dengan pembagian Harta Peninggalan dan mengajukan gugatan. Bank sebaiknya...",
-    options: [
-      "Tetap mencairkan kepada ahli waris lain yang setuju",
-      "Menahan pencairan sampai ada putusan pengadilan",
-      "Mencairkan sebagian sesuai yang tidak disengketakan",
-      "Menolak semua permohonan pencairan selamanya"
-    ],
-    correctIndex: 1
-  },
+  text: "Kuasa yang diberikan untuk kepentingan penerima kuasa sendiri disebut...",
+  options: [
+    "Kuasa umum",
+    "Kuasa khusus",
+    "Kuasa mutlak",
+    "Kuasa sementara"
+  ],
+  correctIndex: 2
+},
   {
-    text: "Dokumen Keahliwarisan yang diserahkan ahli waris tidak sesuai dengan matriks ketentuan yang berlaku di bank. Tindakan yang tepat adalah...",
-    options: [
-      "Tetap menerima demi pelayanan nasabah",
-      "Meminta ahli waris melengkapi/mengganti dengan dokumen yang sesuai ketentuan",
-      "Mengurangi jumlah pencairan Harta Peninggalan",
-      "Mencairkan ke rekening penampungan bank"
-    ],
-    correctIndex: 1
-  },
+  text: "Bank pada prinsipnya tidak menerima kuasa mutlak karena...",
+  options: [
+    "Bertentangan dengan kebiasaan perbankan",
+    "Berpotensi meniadakan hak pemberi kuasa",
+    "Tidak dikenal dalam hukum perdata",
+    "Tidak memiliki kekuatan pembuktian"
+  ],
+  correctIndex: 1
+},
   {
-    text: "Penyetoran dana ke rekening pewaris setelah pewaris meninggal dunia. Dana tersebut...",
-    options: [
-      "Tidak termasuk Harta Peninggalan karena masuk setelah meninggal",
-      "Tidak bisa diambil ahli waris",
-      "Tetap menjadi bagian Harta Peninggalan yang akan diserahkan kepada ahli waris",
-      "Menjadi milik bank"
-    ],
-    correctIndex: 2
-  },
+  text: "Kuasa yang hanya berlaku untuk satu tindakan hukum tertentu disebut...",
+  options: [
+    "Kuasa umum",
+    "Kuasa khusus",
+    "Kuasa mutlak",
+    "Kuasa bebas"
+  ],
+  correctIndex: 1
+},
   {
-    text: "Ahli waris membawa putusan pengadilan yang menyatakan dirinya satu-satunya ahli waris. Namun ada keluarga lain yang mengklaim sebagai ahli waris tanpa dokumen. Bank sebaiknya...",
-    options: [
-      "Mengikuti klaim keluarga tanpa dokumen",
-      "Mengabaikan putusan pengadilan",
-      "Berpegang pada putusan pengadilan sebagai Dokumen Keahliwarisan yang sah",
-      "Mencari jalan tengah dengan membagi dua"
-    ],
-    correctIndex: 2
-  },
+  text: "Kuasa yang diberikan untuk mengurus segala kepentingan pemberi kuasa disebut...",
+  options: [
+    "Kuasa sementara",
+    "Kuasa khusus",
+    "Kuasa umum",
+    "Kuasa mutlak"
+  ],
+  correctIndex: 2
+},
   {
-    text: "Dokumen Keahliwarisan untuk daerah tertentu ditentukan oleh peraturan daerah setempat. Cabang bank harus...",
-    options: [
-      "Mengabaikan peraturan daerah dan memakai standar pusat",
-      "Meminta nasabah menunjukkan peraturan daerah setempat sebagai dasar",
-      "Mengikuti kebiasaan yang berkembang saja",
-      "Menunda pencairan tanpa penjelasan"
-    ],
-    correctIndex: 1
-  },
+  text: "Cek kosong adalah cek yang...",
+  options: [
+    "Tidak ditandatangani penarik",
+    "Dananya tidak tersedia atau tidak cukup saat diajukan",
+    "Belum diisi tanggal penarikan",
+    "Sudah kedaluwarsa masa berlakunya"
+  ],
+  correctIndex: 1
+},
   {
-    text: "Seorang nasabah meminta bank menghapus jejak transaksi tertentu dari mutasi rekening. Permintaan ini...",
-    options: [
-      "Dapat dipenuhi jika transaksi kecil",
-      "Dapat dipenuhi jika disetujui atasan",
-      "Tidak dapat dipenuhi karena bank wajib menjaga keutuhan catatan dan Rahasia Bank",
-      "Boleh dipenuhi jika sudah lewat 1 tahun"
-    ],
-    correctIndex: 2
-  },
+  text: "Bilyet giro kosong terjadi apabila...",
+  options: [
+    "Tidak mencantumkan nama penerima",
+    "Saldo rekening tidak mencukupi saat pemindahbukuan",
+    "Tidak dibubuhi cap perusahaan",
+    "Tidak disertai surat kuasa"
+  ],
+  correctIndex: 1
+},
   {
-    text: "Pegawai bank menceritakan saldo rekening nasabah terkenal kepada temannya di luar kantor. Perbuatan ini...",
-    options: [
-      "Tidak masalah jika tidak tercatat",
-      "Melanggar Rahasia Bank dan dapat dikenakan sanksi pidana",
-      "Diperbolehkan jika tidak menyebutkan nama bank",
-      "Diperbolehkan jika nasabah bukan nasabah penyimpan"
-    ],
-    correctIndex: 1
-  },
+  text: "Perbedaan utama antara cek dan bilyet giro adalah...",
+  options: [
+    "Cek dapat diuangkan tunai, bilyet giro melalui pemindahbukuan",
+    "Cek hanya untuk badan hukum",
+    "Bilyet giro selalu atas unjuk",
+    "Cek tidak memerlukan tanda tangan"
+  ],
+  correctIndex: 0
+},
   {
-    text: "Fungsi utama ketentuan Rahasia Bank bagi perbankan adalah...",
-    options: [
-      "Menghambat akses informasi bagi pemerintah",
-      "Melindungi kepercayaan nasabah terhadap bank dan menjaga stabilitas sistem perbankan",
-      "Menghindari kewajiban pajak bank",
-      "Mengurangi beban administrasi bank"
-    ],
-    correctIndex: 1
-  },
+  text: "Bank dapat menolak pembayaran cek apabila...",
+  options: [
+    "Tanggal penarikan belum lewat",
+    "Dana tidak tersedia atau cek diblokir",
+    "Nama penerima ditulis lengkap",
+    "Cek masih dalam masa berlaku"
+  ],
+  correctIndex: 1
+},
   {
-    text: "Dalam rangka kerjasama internasional, otoritas negara lain meminta data nasabah sesuai perjanjian resiprokal. Bank dapat memberikan data jika...",
-    options: [
-      "Ada perjanjian kerja sama antarnegara yang sah dan mekanisme permintaan melalui otoritas yang berwenang",
-      "Permintaan disampaikan langsung ke cabang",
-      "Nasabah setuju secara lisan",
-      "Bank memperoleh keuntungan finansial dari kerja sama tersebut"
-    ],
-    correctIndex: 0
-  },
+  text: "Penarikan cek kosong oleh nasabah dapat mengakibatkan...",
+  options: [
+    "Penutupan otomatis semua rekening",
+    "Sanksi administratif sesuai ketentuan yang berlaku",
+    "Pembatalan seluruh transaksi sebelumnya",
+    "Penghapusan kewajiban nasabah"
+  ],
+  correctIndex: 1
+},
   {
-    text: "Dalam konteks pencegahan pendanaan terorisme, ketentuan rahasia bank...",
-    options: [
-      "Tetap berlaku penuh tanpa pengecualian",
-      "Tidak berlaku terhadap permintaan penyidik, penuntut umum, atau hakim yang berwenang",
-      "Hanya berlaku untuk rekening di atas Rp1 miliar",
-      "Hanya berlaku untuk rekening badan hukum"
-    ],
-    correctIndex: 1
-  },
+  text: "Pencantuman nasabah dalam daftar hitam penarik cek kosong bertujuan untuk...",
+  options: [
+    "Menghukum nasabah secara pidana",
+    "Memberi efek jera dan menjaga sistem pembayaran",
+    "Menghapus seluruh kewajiban bank",
+    "Mengalihkan tanggung jawab kepada penerima cek"
+  ],
+  correctIndex: 1
+},
   {
-    text: "Penyidik tindak pendanaan terorisme meminta data rekening tersangka. Surat permintaan harus...",
-    options: [
-      "Ditandatangani oleh ketua RT setempat",
-      "Ditandatangani oleh pejabat instansi penyidik yang berwenang sesuai UU",
-      "Tidak perlu ditandatangani, cukup email",
-      "Hanya ditandatangani oleh penyidik secara pribadi"
-    ],
-    correctIndex: 1
-  },
+  text: "Penarikan bilyet giro kosong pada prinsipnya merupakan...",
+  options: [
+    "Pelanggaran administratif di bidang sistem pembayaran",
+    "Perbuatan pidana otomatis",
+    "Wanprestasi yang selalu batal demi hukum",
+    "Perbuatan melawan hukum tanpa pengecualian"
+  ],
+  correctIndex: 0
+},
   {
-    text: "Pegawai bank ragu apakah suatu pihak berhak meminta pembukaan Rahasia Bank. Langkah paling tepat adalah...",
-    options: [
-      "Langsung menolak tanpa klarifikasi",
-      "Memberikan data agar tidak menghambat proses hukum",
-      "Meminta konfirmasi ke unit hukum/kompliance bank dan mengecek dasar hukumnya",
-      "Menanyakan langsung kepada nasabah"
-    ],
-    correctIndex: 2
-  },
+  text: "Nasabah yang menarik cek kosong berulang kali dapat dikenakan...",
+  options: [
+    "Penutupan rekening giro dan sanksi sesuai ketentuan",
+    "Pembekuan seluruh rekening tabungan",
+    "Pencabutan kewarganegaraan",
+    "Larangan membuka rekening di luar negeri"
+  ],
+  correctIndex: 0
+},
   {
-    text: "Ahli waris datang dengan Dokumen Keahliwarisan lengkap, tetapi tanda bukti deposito berjangka hilang. Bank sebaiknya...",
-    options: [
-      "Menolak pencairan karena bukti simpanan wajib ada",
-      "Meminta surat pernyataan kehilangan dan melakukan verifikasi internal sebelum pencairan",
-      "Mencairkan tanpa prosedur lain",
-      "Meminta ahli waris mencari sampai ketemu"
-    ],
-    correctIndex: 1
-  },
+  text: "Bank wajib melaporkan penarikan cek atau bilyet giro kosong kepada...",
+  options: [
+    "Otoritas sistem pembayaran sesuai ketentuan",
+    "Kepolisian setempat",
+    "Pengadilan negeri",
+    "Kantor pajak"
+  ],
+  correctIndex: 0
+},
   {
-    text: "Nasabah penyimpan sekaligus debitur. Dalam konteks Rahasia Bank, bank wajib merahasiakan...",
-    options: [
-      "Hanya data kreditnya sebagai debitur",
-      "Hanya data simpanannya sebagai penyimpan",
-      "Informasi nasabah dalam kedudukannya sebagai nasabah penyimpan",
-      "Seluruh data kredit boleh dibuka tanpa batas"
-    ],
-    correctIndex: 2
-  }
+  text: "Dalam praktik perbankan, tujuan utama pengaturan cek dan bilyet giro kosong adalah...",
+  options: [
+    "Melindungi kepentingan bank semata",
+    "Menjaga kepercayaan dan kelancaran lalu lintas pembayaran",
+    "Membatasi hak nasabah dalam bertransaksi",
+    "Menghapus risiko hukum sepenuhnya"
+  ],
+  correctIndex: 1
+},
 ];
 
 const labels = ["A", "B", "C", "D"];
