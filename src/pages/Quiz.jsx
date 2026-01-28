@@ -96,9 +96,6 @@ export default function Quiz() {
           <h1 className="text-xl font-bold capitalize">
             Ujian {bab.replace("bab", "Bab ")}
           </h1>
-          <span className="bg-gray-100 px-3 py-1 rounded">
-            Skor: {score}
-          </span>
         </div>
 
         <div className="mb-6">
