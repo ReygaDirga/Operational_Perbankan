@@ -803,7 +803,7 @@ const questions = [
     a: 3
   },
   {
-    q: "Dalam pengajuan Kartu Kredit BCA, channel yang **tidak termasuk** dalam metode pengajuan resmi adalah …",
+    q: "Dalam pengajuan Kartu Kredit BCA, channel yang tidak termasuk dalam metode pengajuan resmi adalah …",
     o: [
       "Direct Sales",
       "Branch",
@@ -893,7 +893,7 @@ const questions = [
     a: 2
   },
   {
-    q: "Dalam KPR BCA, agunan untuk tujuan konsumsi lainnya **wajib berupa** …",
+    q: "Dalam KPR BCA, agunan untuk tujuan konsumsi lainnya wajib berupa…",
     o: [
       "Apartemen",
       "Ruko",
