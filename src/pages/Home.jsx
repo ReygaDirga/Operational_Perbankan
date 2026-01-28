@@ -1,4 +1,4 @@
-import babList from "../data/Bablist"
+import babList from "../data/bablist"
 import BabCard from "../components/Babcard"
 
 export default function Home() {
