@@ -84,7 +84,7 @@ export default function Quiz() {
     setTimeout(() => {
         setIndex((i) => i + 1)
         setSelected(null)
-    }, 800)
+    }, 2000)
   }
 
 
