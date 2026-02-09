@@ -897,7 +897,7 @@ const questions = [
     o: [
       "Apartemen",
       "Ruko",
-      "Tanah atau tanah dan bangunan permanen",
+      "Tanah dan bangunan permanen",
       "Bangunan sementara"
     ],
     a: 2

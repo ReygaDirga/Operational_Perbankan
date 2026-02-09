@@ -1,12 +1,7 @@
 const questions = [
   {
-    q: "Kebutuhan yang dipenuhi oleh Kredit Produktif",
-    o: [
-      "Penjaminan",
-      "Persetujuan",
-      "Penagihan",
-      "Kesepakatan"
-    ],
+    q: "Sebuah perusahaan mengajukan Kredit Produktif ke bank untuk menunjang kegiatan operasional hariannya. Kebutuhan utama yang dipenuhi oleh Kredit Produktif tersebut adalah",
+    o: ["Penjaminan", "Persetujuan", "Penagihan", "Kesepakatan"],
     a: 0
   },
   {
@@ -20,17 +15,12 @@ const questions = [
     a: 0
   },
   {
-    q: "Dibawah ini adalah jenis jenis Kredit Modal Kerja, kecuali",
-    o: [
-      "Kredit Lokal",
-      "Trust Receipt",
-      "Time Loan",
-      "Kredit Impor"
-    ],
+    q: "Dalam praktik perbankan, berikut ini adalah jenis jenis Kredit Modal Kerja, kecuali",
+    o: ["Kredit Lokal", "Trust Receipt", "Time Loan", "Kredit Impor"],
     a: 3
   },
   {
-    q: "Nasabah yang tidak cocok menggunakan Kredit Lokal adalah",
+    q: "Seorang analis kredit menilai bahwa ada jenis usaha yang kurang cocok menggunakan Kredit Lokal karena sifat usahanya musiman. Usaha yang tidak cocok menggunakan Kredit Lokal adalah",
     o: [
       "Usaha yang membutuhkan pembiayaan yang liquid",
       "Butuh pembiayaan untuk perputaran usaha",
@@ -41,16 +31,11 @@ const questions = [
   },
   {
     q: "Pembebanan Biaya Bunga Time Loan dibebankan secara",
-    o: [
-      "Harian",
-      "Anniversary Date",
-      "Tahunan",
-      "Secara Periodik"
-    ],
+    o: ["Harian", "Anniversary Date", "Tahunan", "Secara Periodik"],
     a: 0
   },
   {
-    q: "Yang harus dicantumkan debitur pada SPPFK adalah",
+    q: "Saat mengajukan penarikan fasilitas kredit, debitur wajib mengisi SPPFK. Informasi utama yang harus dicantumkan adalah",
     o: [
       "Konsekuensi gagal bayar",
       "Dana yang dibutuhkan",
@@ -60,7 +45,7 @@ const questions = [
     a: 1
   },
   {
-    q: "Kredit yang digunakan untuk melunasi L/C (Letter of Credit) atau SKBDN untuk keperluan penebusan dokumen impor yang diterbitkan oleh BCA untuk pembiayaan persediaan barang/bahan baku produksi",
+    q: "Kredit yang digunakan untuk melunasi L/C atau SKBDN guna penebusan dokumen impor yang diterbitkan oleh BCA adalah",
     o: [
       "Kredit Lokal",
       "Trust Receipt",
@@ -70,7 +55,7 @@ const questions = [
     a: 1
   },
   {
-    q: "Pinjaman jangka pendek/menengah untuk pembiayaan modal kerja yang penarikannya dilakukan sekaligus/bertahap dan pelunasannya (pokok+bunga) dilakukan dengan cara mengangsur (anuitas / menurun) adalah definisi dari",
+    q: "Seorang pengusaha menarik dana modal kerja sekaligus atau bertahap dan melunasinya dengan cicilan bulanan. Jenis kredit tersebut adalah",
     o: [
       "Kredit Lokal",
       "Trust Receipt",
@@ -90,43 +75,23 @@ const questions = [
     a: 2
   },
   {
-    q: "Kebutuhan Penjaminan yang dikeluarkan oleh Bank untuk menghindari wanprestasi adalah",
-    o: [
-      "Bid Bond",
-      "Bank Garansi",
-      "Performance Bond",
-      "Andra and the Back Bond"
-    ],
+    q: "Dalam sebuah proyek, bank mengeluarkan jaminan untuk menghindari risiko wanprestasi. Fasilitas yang dimaksud adalah",
+    o: ["Bid Bond", "Bank Garansi", "Performance Bond", "Andra and the Back Bond"],
     a: 1
   },
   {
     q: "Kebutuhan Penjaminan yang dikeluarkan oleh Bank untuk Perusahaan Rokok untuk janji bayar cukai adalah",
-    o: [
-      "Tax Bond",
-      "BG Pita Cukai",
-      "Advance Payment Bond",
-      "Bid Bond"
-    ],
+    o: ["Tax Bond", "BG Pita Cukai", "Advance Payment Bond", "Bid Bond"],
     a: 1
   },
   {
     q: "Jenis Bunga yang tidak ada di KPR BCA",
-    o: [
-      "Bunga Cap",
-      "Bunga Floating",
-      "Bunga Fix",
-      "Bunga Revolving"
-    ],
+    o: ["Bunga Cap", "Bunga Floating", "Bunga Fix", "Bunga Revolving"],
     a: 3
   },
   {
     q: "Berapa DP minimal KPR BCA",
-    o: [
-      "10%",
-      "15%",
-      "20%",
-      "30%"
-    ],
+    o: ["10%", "15%", "20%", "30%"],
     a: 0
   },
   {
@@ -140,13 +105,8 @@ const questions = [
     a: 0
   },
   {
-    q: "Berapa maximum tenor kredit KPR Xtra",
-    o: [
-      "20 tahun",
-      "10 tahun",
-      "35 tahun",
-      "15 tahun"
-    ],
+    q: "Seorang nasabah ingin mengetahui tenor maksimal produk KPR Xtra. Tenor maksimum KPR Xtra adalah",
+    o: ["20 tahun", "10 tahun", "35 tahun", "15 tahun"],
     a: 3
   },
   {
@@ -160,7 +120,7 @@ const questions = [
     a: 1
   },
   {
-    q: "Fasilitas apa yang diberikan kepada nasabah jika ia memiliki kebutuhan untuk fasilitas kepemilikan mobil karyawan",
+    q: "Perusahaan ingin memfasilitasi kepemilikan mobil karyawan. Program yang sesuai adalah",
     o: [
       "COP (Car Ownership Program)",
       "Operational Car",
@@ -181,32 +141,17 @@ const questions = [
   },
   {
     q: "Maksimal Plafon untuk KKB Mobil Bekas adalah ... dari harga mobil",
-    o: [
-      "75%",
-      "80%",
-      "70%",
-      "65%"
-    ],
+    o: ["75%", "80%", "70%", "65%"],
     a: 2
   },
   {
     q: "Maksimal usia mobil saat KKB Mobil Bekas dan Refinancing Lunas",
-    o: [
-      "10 Tahun",
-      "14 Tahun",
-      "12 tahun",
-      "13 Tahun"
-    ],
+    o: ["10 Tahun", "14 Tahun", "12 tahun", "13 Tahun"],
     a: 1
   },
   {
     q: "Yang Bukan Fitur Kartu Kredit BCA adalah",
-    o: [
-      "Cicilan 0%",
-      "Autopay",
-      "BCA Reward",
-      "AIA"
-    ],
+    o: ["Cicilan 0%", "Autopay", "BCA Reward", "AIA"],
     a: 3
   },
   {
@@ -231,16 +176,11 @@ const questions = [
   },
   {
     q: "Biaya Overlimit Kartu Kredit BCA Everyday Card",
-    o: [
-      "30.000",
-      "20.000",
-      "50.000",
-      "40.000"
-    ],
+    o: ["30.000", "20.000", "50.000", "40.000"],
     a: 1
   },
   {
-    q: "Solusi bagi Perusahaan Multinasional berukuran sedang & besar yang menginginkan efisiensi waktu maupun biaya dengan menyederhanakan proses pembiayaan keperluan travel & entertainment adalah",
+    q: "Solusi bagi Perusahaan Multinasional berukuran sedang & besar yang menginginkan efisiensi travel & entertainment adalah",
     o: [
       "BCA Mastercard Corporate",
       "BCA UnionPay Corporate",
@@ -281,12 +221,7 @@ const questions = [
   },
   {
     q: "Plafon Pinjaman Personal Loan Maksimum adalah",
-    o: [
-      "150 Juta",
-      "100 Juta",
-      "50 Juta",
-      "200 Juta"
-    ],
+    o: ["150 Juta", "100 Juta", "50 Juta", "200 Juta"],
     a: 1
   },
   {
@@ -300,7 +235,7 @@ const questions = [
     a: 0
   },
   {
-    q: "Sebuah kartu yang berfungsi sebagai penyedia dana pinjaman tanpa agunan untuk berbagai keperluan transaksi bisnis adalah",
+    q: "Sebuah kartu yang berfungsi sebagai penyedia dana pinjaman tanpa agunan untuk transaksi bisnis adalah",
     o: [
       "BCA Smart Cash",
       "Corporate Business Account",
@@ -310,7 +245,7 @@ const questions = [
     a: 0
   },
   {
-    q: "Merupakan rekening yang dapat digunakan untuk melakukan pembelian barang & jasa serta pembayaran pengeluaran rutin perusahaan",
+    q: "Merupakan rekening yang digunakan untuk pembelian barang & jasa serta pembayaran rutin perusahaan",
     o: [
       "BCA Smart Cash",
       "Corporate Business Account",
@@ -320,7 +255,7 @@ const questions = [
     a: 1
   },
   {
-    q: "Rekening yang diberikan kepada debitur atas rekomendasi merchant yang dapat berfungsi sebagai sarana penyediaan dana pinjaman tanpa agunan untuk pembayaran bisnis kepada merchant.",
+    q: "Rekening yang diberikan kepada debitur atas rekomendasi merchant untuk pembiayaan tanpa agunan adalah",
     o: [
       "BCA Smart Cash",
       "Corporate Business Account",
@@ -351,32 +286,17 @@ const questions = [
   },
   {
     q: "Nilai kredit yang belum dipergunakan oleh debitur selama masa kredit adalah",
-    o: [
-      "Plafon",
-      "Outstanding",
-      "Tenor Kredit",
-      "Unused Plafon"
-    ],
+    o: ["Plafon", "Outstanding", "Tenor Kredit", "Unused Plafon"],
     a: 3
   },
   {
     q: "Jenis bunga yang dibebankan terhadap jumlah outstanding kredit yang terpakai adalah",
-    o: [
-      "Bunga countdown",
-      "Bunga fixed",
-      "Bunga efektif",
-      "Bunga flat"
-    ],
+    o: ["Bunga countdown", "Bunga fixed", "Bunga efektif", "Bunga flat"],
     a: 2
   },
   {
     q: "Berikut kebutuhan kredit modal kerja yang dimiliki oleh nasabah, kecuali",
-    o: [
-      "Cash Loan",
-      "Non Cash Loan",
-      "Dana Tunai",
-      "Non Cash Flow"
-    ],
+    o: ["Cash Loan", "Non Cash Loan", "Dana Tunai", "Non Cash Flow"],
     a: 3
   },
   {
@@ -390,23 +310,13 @@ const questions = [
     a: 0
   },
   {
-    q: "Fasilitas non cash loan, dimana pihak pembeli dan penjual sama-sama berada di Indonesia adalah",
-    o: [
-      "SKBDN",
-      "L/C",
-      "Bank Garansi",
-      "Kredit Lokal"
-    ],
+    q: "Fasilitas non cash loan dimana pihak pembeli dan penjual berada di Indonesia adalah",
+    o: ["SKBDN", "L/C", "Bank Garansi", "Kredit Lokal"],
     a: 0
   },
   {
-    q: "Dalam mekanisme usance L/C (dari sisi importer) pihak yang memberi tempohutang adalah",
-    o: [
-      "Bank Koresponden",
-      "Issuing Bank",
-      "Importir",
-      "Eksportir"
-    ],
+    q: "Dalam mekanisme usance L/C dari sisi importer, pihak yang memberi tempohutang adalah",
+    o: ["Bank Koresponden", "Issuing Bank", "Importir", "Eksportir"],
     a: 1
   },
   {
@@ -421,16 +331,11 @@ const questions = [
   },
   {
     q: "SKBDN dapat diajukan dalam mata uang",
-    o: [
-      "Yuan",
-      "Rupiah dan Valas",
-      "USD",
-      "Rupiah"
-    ],
+    o: ["Yuan", "Rupiah dan Valas", "USD", "Rupiah"],
     a: 1
   },
   {
-    q: "Fasilitas Kredit dimana plafon yang diberikan terpisah dari rekening giro nasabah (rekening pinjaman) adalah",
+    q: "Fasilitas Kredit dimana plafon dicatat terpisah dari rekening giro nasabah adalah",
     o: [
       "Kredit lokal",
       "Bank Garansi",
@@ -441,12 +346,7 @@ const questions = [
   },
   {
     q: "Berikut termasuk dalam kredit modal kerja, kecuali",
-    o: [
-      "Kredit lokal",
-      "Time Loan",
-      "Kredit Investasi",
-      "Installment Loan"
-    ],
+    o: ["Kredit lokal", "Time Loan", "Kredit Investasi", "Installment Loan"],
     a: 2
   },
   {
@@ -460,7 +360,7 @@ const questions = [
     a: 2
   },
   {
-    q: "Kredit yang bertujuan untuk rehabilitasi, modernisasi, dan ekspansi usaha-usaha produktif (seperti pembelian tanah, bangunan dan kendaraan) yangpenarikannya dapat dilakukan sekaligus/bertahap dan dilunasi dengan caramengangsur, merupakan pengertian dari",
+    q: "Kredit yang bertujuan untuk rehabilitasi, modernisasi, dan ekspansi usaha produktif adalah",
     o: [
       "Kredit Investasi",
       "Kredit Lokal",
@@ -470,17 +370,12 @@ const questions = [
     a: 0
   },
   {
-    q: "Bunga yang dibebankan kepada debitur konstan / tidak berubah - ubah selama periode tertentu adalah",
-    o: [
-      "Bunga fixed",
-      "Bunga efektif",
-      "Bunga flat",
-      "Bunga floating"
-    ],
+    q: "Bunga yang dibebankan secara konstan selama periode tertentu adalah",
+    o: ["Bunga fixed", "Bunga efektif", "Bunga flat", "Bunga floating"],
     a: 0
   },
   {
-    q: "Pelunasan pokok fasilitas dilakukan dengan cara pencabutan plafon di rekening nasabah pada saat tidak ada pemakaian di rekening tersebut (bila masih ada outstanding maka harus dilakukan penyetoran) merupakan ciri dari",
+    q: "Pelunasan pokok fasilitas dilakukan dengan pencabutan plafon apabila tidak ada outstanding merupakan ciri dari",
     o: [
       "Time loan revolving",
       "Bank Garansi",
@@ -492,50 +387,50 @@ const questions = [
   {
     q: "Pengertian dari bunga floating adalah",
     o: [
-      "Jenis bunga yang diberlakukan/dikenakan kepada nasabah sesuai dengan perjanjian awal kontrak",
-      "Jenis bunga yang diberlakukan/dikenakan kepada nasabah sesuai dengan perjanjian awal kontrak dan dalam periode tertentu",
-      "Jenis bunga yang diberlakukan/dikenakan kepada nasabah sesuai dengan suku bunga yang berlaku di pasaran (ditinjau ulang secara berkala oleh BCA)",
-      "Jenis bunga yang perhitungannya menggunakan nilai yang tetap"
+      "Jenis bunga sesuai perjanjian awal",
+      "Jenis bunga sesuai perjanjian awal dalam periode tertentu",
+      "Jenis bunga sesuai suku bunga pasar dan ditinjau berkala",
+      "Jenis bunga dengan perhitungan tetap"
     ],
     a: 2
   },
   {
-    q: "Seorang pedagang grosir membutuhkan dana yang dapat ditarik dan disetor sewaktu-waktu melalui rekening giro untuk membiayai persediaan yang terus berputar selama usahanya berjalan. Fasilitas kredit yang paling sesuai adalah",
+    q: "Seorang pedagang grosir membutuhkan dana yang bisa ditarik dan disetor kapan saja melalui giro. Fasilitas yang sesuai adalah",
     o: ["Time Loan Insidentil", "Installment Loan", "Kredit Lokal", "Kredit Investasi"],
     a: 2
   },
   {
-    q: "Nasabah hanya membutuhkan dana ketika ada proyek tertentu dan pencairannya harus melalui SPPFK serta dicatat di rekening pinjaman, bukan rekening giro. Karakteristik ini paling sesuai dengan",
+    q: "Nasabah membutuhkan dana hanya saat ada proyek tertentu dan dicatat di rekening pinjaman. Fasilitas yang sesuai adalah",
     o: ["Kredit Lokal", "Time Loan", "Installment Loan", "Kredit Investasi"],
     a: 1
   },
   {
-    q: "Pembayaran pokok dan bunga dilakukan setiap bulan dengan jumlah angsuran tetap sampai kredit lunas merupakan ciri dari",
+    q: "Pembayaran pokok dan bunga setiap bulan dengan jumlah tetap adalah ciri dari",
     o: ["Angsuran menurun", "Angsuran anuitas", "Kredit Lokal", "Time Loan Revolving"],
     a: 1
   },
   {
-    q: "Nasabah memiliki kebutuhan modal kerja musiman setiap tahun di bulan tertentu dan hanya membutuhkan pencairan satu kali setiap periode tersebut. Fasilitas yang paling tepat adalah",
+    q: "Nasabah memiliki kebutuhan modal kerja musiman dan pencairan satu kali tiap periode. Fasilitas yang tepat adalah",
     o: ["Time Loan Regular", "Time Loan Insidentil", "Kredit Lokal", "Installment Loan"],
     a: 1
   },
   {
-    q: "Plafon kredit yang hanya dapat digunakan untuk melunasi L/C atau SKBDN dan wajib disertai dokumen perdagangan merupakan karakteristik dari",
+    q: "Plafon kredit yang hanya untuk melunasi L/C atau SKBDN disebut",
     o: ["Kredit Lokal", "Trust Receipt", "Kredit Ekspor", "Installment Loan"],
     a: 1
   },
   {
-    q: "Seorang eksportir mendapatkan pembiayaan maksimal 85% dari nilai ekspor dan sisanya harus dibiayai sendiri. Fasilitas ini mengacu pada",
+    q: "Seorang eksportir memperoleh pembiayaan maksimal 85% dari nilai ekspor. Fasilitas tersebut adalah",
     o: ["Kredit Lokal", "Trust Receipt", "Kredit Ekspor", "Time Loan"],
     a: 2
   },
   {
-    q: "Penarikan kredit dilakukan berkali-kali selama total outstanding tidak melebihi plafon, namun plafon dicatat di rekening pinjaman. Produk yang dimaksud adalah",
+    q: "Penarikan kredit berulang dengan plafon dicatat di rekening pinjaman adalah",
     o: ["Kredit Lokal", "Time Loan Revolving", "Installment Loan", "Kredit Investasi"],
     a: 1
   },
   {
-    q: "Nasabah ingin membeli mesin produksi dengan masa manfaat panjang dan pembayaran dilakukan dengan angsuran selama 7 tahun termasuk grace period. Fasilitas yang sesuai adalah",
+    q: "Nasabah membeli mesin produksi dengan masa manfaat panjang dan angsuran 7 tahun. Fasilitas yang sesuai adalah",
     o: ["Kredit Lokal", "Installment Loan", "Kredit Investasi", "Time Loan"],
     a: 2
   },
@@ -550,7 +445,7 @@ const questions = [
     a: 1
   },
   {
-    q: "Nasabah memiliki beberapa SPPFK aktif pada fasilitas Time Loan. Jadwal pembayaran pokok dan bunga akan",
+    q: "Nasabah memiliki beberapa SPPFK aktif pada Time Loan. Jadwal pembayaran akan",
     o: [
       "Digabung menjadi satu",
       "Mengikuti SPPFK terakhir",
@@ -560,37 +455,37 @@ const questions = [
     a: 2
   },
   {
-    q: "Fasilitas kredit yang penarikannya dilakukan sekaligus atau bertahap namun pelunasannya dilakukan dengan cara mengangsur adalah",
+    q: "Fasilitas kredit dengan penarikan sekaligus atau bertahap dan pelunasan mengangsur adalah",
     o: ["Kredit Lokal", "Time Loan", "Installment Loan", "Trust Receipt"],
     a: 2
   },
   {
-    q: "Nasabah membutuhkan jaminan kepada pemilik proyek bahwa ia mampu menyelesaikan pekerjaan sesuai kontrak. Bank Garansi yang tepat adalah",
+    q: "Nasabah membutuhkan jaminan bahwa proyek selesai sesuai kontrak. Bank Garansi yang tepat adalah",
     o: ["Bid Bond", "Performance Bond", "Payment Bond", "Advance Payment Bond"],
     a: 1
   },
   {
-    q: "Garansi bank yang digunakan untuk menjamin pengembalian uang muka yang telah diterima kontraktor disebut",
+    q: "Garansi bank untuk menjamin pengembalian uang muka disebut",
     o: ["Performance Bond", "Payment Bond", "Advance Payment Bond", "Maintenance Bond"],
     a: 2
   },
   {
-    q: "Dalam proses klaim Bank Garansi, pencairan dana garansi dilakukan oleh",
+    q: "Dalam proses klaim Bank Garansi, pencairan dilakukan oleh",
     o: ["Debitur", "Bank penerbit", "Pemilik proyek", "Reimbursing bank"],
     a: 1
   },
   {
-    q: "L/C yang memungkinkan beneficiary menerima pembayaran segera, sementara applicant membayar secara usance disebut",
+    q: "L/C yang memungkinkan beneficiary menerima pembayaran segera sementara applicant membayar usance adalah",
     o: ["Sight L/C", "Usance L/C", "UPAS L/C", "UPAU L/C"],
     a: 2
   },
   {
-    q: "L/C yang pembayarannya dilakukan pada saat jatuh tempo usance baik oleh applicant maupun beneficiary adalah",
+    q: "L/C dengan pembayaran pada saat jatuh tempo usance bagi semua pihak adalah",
     o: ["Sight L/C", "Usance L/C", "UPAS L/C", "UPAU L/C"],
     a: 3
   },
   {
-    q: "Fasilitas L/C dapat diberikan dalam bentuk revolving apabila",
+    q: "Fasilitas L/C dapat bersifat revolving apabila",
     o: [
       "Debitur baru pertama kali impor",
       "Kebutuhan bersifat berulang",
@@ -600,42 +495,37 @@ const questions = [
     a: 1
   },
   {
-    q: "SKBDN memiliki mekanisme mirip L/C namun dibedakan oleh",
+    q: "SKBDN mirip dengan L/C namun digunakan untuk",
     o: [
       "Hanya menggunakan valuta asing",
-      "Hanya untuk transaksi dalam negeri",
-      "Tidak memerlukan bank",
-      "Tidak memerlukan dokumen"
+      "Transaksi dalam negeri",
+      "Tanpa bank",
+      "Tanpa dokumen"
     ],
     a: 1
   },
   {
-    q: "Nasabah memiliki kredit dengan tunggakan pokok dan/atau bunga selama 95 hari. Kolektibilitas kredit tersebut adalah",
+    q: "Nasabah menunggak pokok atau bunga selama 95 hari. Kolektibilitasnya adalah",
     o: ["DPK", "Kurang Lancar", "Diragukan", "Macet"],
     a: 1
   },
   {
-    q: "Plafon kredit yang bersifat revolving berarti",
+    q: "Plafon kredit bersifat revolving berarti",
     o: [
       "Tidak dapat digunakan kembali",
-      "Hanya dapat digunakan sekali",
+      "Hanya sekali",
       "Dapat digunakan kembali setelah pelunasan",
       "Harus ditarik sekaligus"
     ],
     a: 2
   },
   {
-    q: "Kredit yang tidak hanya mencakup penyediaan dana tetapi juga penjaminan termasuk dalam kategori",
-    o: [
-      "Kredit konsumtif",
-      "Kredit produktif",
-      "Kredit personal",
-      "Kredit jangka panjang"
-    ],
+    q: "Kredit yang mencakup penyediaan dana dan penjaminan termasuk kategori",
+    o: ["Kredit konsumtif", "Kredit produktif", "Kredit personal", "Kredit jangka panjang"],
     a: 1
   },
   {
-    q: "Nasabah membutuhkan pembiayaan untuk membayar pemasok sementara piutang dari pembeli belum diterima. Kebutuhan ini dikategorikan sebagai",
+    q: "Nasabah membayar pemasok sementara piutang belum diterima termasuk kebutuhan",
     o: [
       "Kebutuhan investasi",
       "Kebutuhan penjaminan",
@@ -645,7 +535,7 @@ const questions = [
     a: 2
   },
   {
-    q: "Dalam Kredit Investasi, realisasi kredit untuk pembelian mesin dilakukan berdasarkan",
+    q: "Dalam Kredit Investasi, realisasi pembelian mesin berdasarkan",
     o: [
       "Saldo giro debitur",
       "Dokumen tagihan atau invoice",
@@ -655,7 +545,7 @@ const questions = [
     a: 1
   },
   {
-    q: "Kredit Modal Kerja dengan jangka waktu maksimum 1 tahun dan dapat diperpanjang adalah karakteristik dari",
+    q: "Kredit Modal Kerja dengan jangka waktu maksimum 1 tahun dan dapat diperpanjang adalah",
     o: [
       "Kredit Lokal dan Time Loan",
       "Installment Loan",
@@ -665,7 +555,7 @@ const questions = [
     a: 0
   },
   {
-    q: "Perhitungan plafon Kredit Ekspor dipengaruhi oleh target nilai ekspor dan",
+    q: "Perhitungan plafon Kredit Ekspor dipengaruhi oleh",
     o: [
       "Suku bunga pasar",
       "Jumlah perputaran usaha",
@@ -675,12 +565,12 @@ const questions = [
     a: 1
   },
   {
-    q: "Nasabah ingin mengatur pembayaran pinjaman modal kerja secara mencicil agar arus kas lebih terkontrol. Solusi yang tepat adalah",
+    q: "Nasabah ingin pembayaran modal kerja dicicil agar arus kas terkontrol. Solusi yang tepat adalah",
     o: ["Kredit Lokal", "Time Loan", "Installment Loan", "Trust Receipt"],
     a: 2
   },
   {
-    q: "Dalam Kredit Lokal, apabila tidak ada outstanding maka pelunasan pokok dilakukan dengan cara",
+    q: "Dalam Kredit Lokal, apabila tidak ada outstanding maka pelunasan pokok dilakukan dengan",
     o: [
       "Pendebetan angsuran",
       "Penarikan tunai",
@@ -690,31 +580,160 @@ const questions = [
     a: 2
   },
   {
-    q: "Bank berperan sebagai penengah akibat adanya ketidakpercayaan antara buyer dan seller pada kebutuhan",
-    o: [
-      "Pembiayaan",
-      "Penjaminan",
-      "Investasi",
-      "Refinancing"
-    ],
+    q: "Bank berperan sebagai penengah antara buyer dan seller pada kebutuhan",
+    o: ["Pembiayaan", "Penjaminan", "Investasi", "Refinancing"],
     a: 1
   },
   {
-    q: "Kredit dengan plafon dicatat di rekening giro dan dapat digunakan melalui cek atau BG merupakan ciri dari",
+    q: "Kredit dengan plafon dicatat di rekening giro dan digunakan melalui cek atau BG adalah",
     o: ["Time Loan", "Installment Loan", "Kredit Lokal", "Trust Receipt"],
     a: 2
   },
   {
-    q: "Nasabah ingin melunasi pinjaman sebelum jatuh tempo pada fasilitas Time Loan. Ketentuan yang berlaku adalah",
+    q: "Pelunasan sebelum jatuh tempo pada Time Loan diperbolehkan",
     o: [
       "Tidak diperbolehkan",
-      "Hanya boleh seluruhnya",
-      "Diperbolehkan per SPPFK",
-      "Harus menunggu akhir fasilitas"
+      "Hanya seluruhnya",
+      "Per SPPFK",
+      "Menunggu akhir fasilitas"
     ],
     a: 2
+  },
+  {
+    q: "Berapa bunga terendah Kredit Usaha Rakyat (KUR)?",
+    o: ["5%", "7%", "6%", "8%"],
+    a: 2
+  },
+  {
+    q: "Berikut termasuk kredit produktif, kecuali",
+    o: [
+      "Kredit Modal Kerja",
+      "Kredit Investasi",
+      "Kredit Pemilikan Rumah",
+      "Kredit Usaha Rakyat"
+    ],
+    a: 2
+  },
+  {
+    q: "Produk yang tidak bisa digunakan untuk agunan back to back obligasi adalah",
+    o: ["SBR", "SR", "FR", "ORI"],
+    a: 0
+  },
+  {
+    q: "Agunan dengan nilai taksasi 80% adalah",
+    o: ["Ruko", "Gudang", "Rumah tinggal", "Tanah"],
+    a: 2
+  },
+  {
+    q: "Biaya admin untuk kredit 500jt-5M",
+    o: ["1 jt", "4 jt", "6 jt", "2 jt"],
+    a: 3
+  },
+  {
+    q: "Plafon maksimal untuk KUR adalah",
+    o: ["400 jt", "600 jt", "500 jt", "700 jt"],
+    a: 2
+  },
+  {
+    q: "Nasabah membeli mesin usaha. Tipe kredit yang tepat adalah",
+    o: ["KMK", "KI", "KSM", "KKB"],
+    a: 1
+  },
+  {
+    q: "KPR bisa digunakan untuk pembelian, kecuali",
+    o: ["Rumah", "Ruko", "Gudang", "Apartment"],
+    a: 2
+  },
+  {
+    q: "Kredit RK termasuk dalam",
+    o: [
+      "Kredit Lokal",
+      "Time Loan",
+      "Installment Loan",
+      "Kredit Usaha Rakyat"
+    ],
+    a: 0
+  },
+  {
+    q: "Apa kepanjangan dari KL?",
+    o: [
+      "Kredit Lokal",
+      "Kartu kredit Loan",
+      "Kredit motor Loan",
+      "Kredit mobil Loan"
+    ],
+    a: 0
+  },
+  {
+    q: "Solusi pembiayaan usaha dengan pembayaran angsuran adalah",
+    o: [
+      "Kredit Lokal",
+      "Time Loan",
+      "Installment Loan",
+      "Back to back"
+    ],
+    a: 2
+  },
+  {
+    q: "Pembiayaan dana untuk kredit jenis SME oleh BCA adalah",
+    o: [
+      "100 Jt - 500 Jt",
+      "1 M - 5 M",
+      "250 Jt - 500 Jt",
+      "100 Jt - 30 M"
+    ],
+    a: 3
+  },
+  {
+    q: "Produk yang tidak bisa dijaminkan untuk back to back adalah",
+    o: ["Deposito", "Saham", "ORI", "SR"],
+    a: 1
+  },
+  {
+    q: "Berapa bunga untuk Kredit Angsuran?",
+    o: ["10% - 12%", "6% - 12%", "10% - 14%", "6% - 14%"],
+    a: 0
+  },
+  {
+    q: "Kredit yang cocok untuk usaha Penggilingan Padi adalah",
+    o: [
+      "Kredit Usaha Rakyat",
+      "Bank Garansi",
+      "Kredit Lokal dan Time Loan",
+      "Back to back"
+    ],
+    a: 2
+  },
+  {
+    q: "Persentase dana stand by untuk RK adalah",
+    o: ["75% dari plafon", "50% dari plafon", "70% dari plafon", "80% dari plafon"],
+    a: 3
+  },
+  {
+    q: "Kredit yang cocok untuk usaha distributor bahan makanan adalah",
+    o: [
+      "Time Loan",
+      "Kredit Ekspor",
+      "Installment Loan",
+      "Kredit Usaha Rakyat"
+    ],
+    a: 2
+  },
+  {
+    q: "Sertifikat yang tidak dapat dijaminkan di BCA adalah",
+    o: ["Lahan kosong", "Sawah", "Toko", "Rumah"],
+    a: 1
+  },
+  {
+    q: "Posisi besarnya kredit yang telah digunakan debitur disebut",
+    o: ["Outstanding", "Plafon", "Unused Plafon", "Revolving"],
+    a: 0
+  },
+  {
+    q: "Jenis bunga yang dibebankan terhadap jumlah outstanding adalah",
+    o: ["Bunga Flat", "Bunga Efektif", "Bunga Fix", "Bunga Floating"],
+    a: 1
   }
-
 ]
 
 export default questions
