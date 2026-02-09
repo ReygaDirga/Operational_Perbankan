@@ -96,6 +96,7 @@ export default function Quiz() {
           <h1 className="text-xl font-bold capitalize">
             Ujian {bab.replace("bab", "Bab ")}
           </h1>
+          <img src="/logo.png" alt="Logo" className="inline-block w-12 h-12" />
         </div>
 
         <div className="mb-6">
