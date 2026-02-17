@@ -8,7 +8,7 @@ const questions = [
     q: "Pembiayaan melalui Kredit Produktif dibagi menjadi 2 bagian yaitu",
     o: [
       "Kebutuhan Modal Kerja dan Penjaminan",
-      "Kebutuhan Modal Kerja dan investasi",
+      "Kebutuhan Modal Ke rja dan investasi",
       "Kebutuhan investasi dan Penjaminan",
       "Kebutuhan Kredit Bunga Rendah dan Modal Kerja"
     ],
@@ -735,5 +735,7 @@ const questions = [
     a: 1
   }
 ]
+
+
 
 export default questions
